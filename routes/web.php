@@ -17,7 +17,6 @@ use App\Http\Controllers\EmployeesController;
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
-    
     Route::get('/', [HomeController::class, 'index'])->name('home');
     Route::get('/account', [HomeController::class, 'account'])->name('account');
     Route::resource('company', CompaniesController::class);
