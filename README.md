@@ -54,3 +54,10 @@ Route::middleware(['auth'])->group(function () {
     
 });
 ```
+
+Some photos from application: 
+
+![alt text](https://i.ibb.co/gwvBDck/1.png)
+![alt text](https://i.ibb.co/qx0hCZ0/2.png)
+![alt text](https://i.ibb.co/SrSv4NQ/3.png)
+![alt text](https://i.ibb.co/gSq9037/4.png)
